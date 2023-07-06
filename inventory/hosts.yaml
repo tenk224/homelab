@@ -1,0 +1,21 @@
+all:
+  hosts:
+    master:
+      ansible_user: ubuntu
+      ansible_host: IP
+      ip: IP
+      access_ip: IP
+  children:
+    kube_control_plane:
+      hosts:
+        master:
+    kube_node:
+      hosts:
+        master:
+    etcd:
+      hosts:
+        master:
+    k8s_cluster:
+      children:
+        kube_control_plane:
+        kube_node:

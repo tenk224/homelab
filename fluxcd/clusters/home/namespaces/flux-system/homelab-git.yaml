@@ -1,0 +1,14 @@
+---
+apiVersion: source.toolkit.fluxcd.io/v1
+kind: GitRepository
+metadata:
+  name: homelab-git
+  namespace: flux-system
+spec:
+  interval: 5m
+  ref:
+    branch: main
+  secretRef:
+    name: homelab
+  timeout: 5m
+  url: ssh://git@github.com/tenk224/homelab
