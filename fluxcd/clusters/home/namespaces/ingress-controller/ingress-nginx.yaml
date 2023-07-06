@@ -19,7 +19,7 @@ spec:
         enable-underscores-in-headers: "true"
         use-forwarded-headers: "true"
         proxy-body-size: "20m"
-      electionID: ingress-external
+      electionID: ingress
       ingressClass: nginx
       replicaCount: 1
       minAvailable: 1
