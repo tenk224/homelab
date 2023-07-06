@@ -5,4 +5,4 @@ resources:
 - flux-system.yaml
 - homelab-git.yaml
 - bitnami.yaml
-- ingress-nginx.yamls
+- ingress-nginx.yaml
