@@ -4,3 +4,4 @@ resources:
 - reconciler.yaml
 - namespaces/flux-system/
 - namespaces/ingress-controller/
+- namespaces/cert-manager/
