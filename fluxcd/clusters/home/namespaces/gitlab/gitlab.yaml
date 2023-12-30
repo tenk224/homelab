@@ -23,6 +23,8 @@ spec:
           cert-manager.io/cluster-issuer: ca-issuer
       kas:
         enabled: false
+      gitaly:
+        enabled: false
     certmanager:
       install: false
     nginx-ingress:
@@ -48,6 +50,8 @@ spec:
       persistence:
         storageClass: manual
         size: 50Gi
+    registry:
+      enabled: false
     gitlab:
       toolbox:
         enabled: false
