@@ -5,3 +5,5 @@ resources:
 - namespace.yaml
 - cert-manager.yaml
 - selfsigned-issuer.yaml
+- selfsigned-ca.yaml
+- ca-issuer.yaml
