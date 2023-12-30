@@ -16,8 +16,9 @@ spec:
     global:
       edition: ce
       hosts:
-        domain: gitlab.tenk.local
+        domain: tenk.local
       ingress:
+        class: nginx
         configureCertmanager: false
         annotations:
           cert-manager.io/cluster-issuer: ca-issuer
@@ -52,14 +53,3 @@ spec:
         size: 50Gi
     registry:
       enabled: false
-    gitlab:
-      toolbox:
-        enabled: false
-      migrations:
-        enabled: false
-      webservice:
-        enabled: false
-      sidekiq:
-        enabled: false
-      gitlab-shell:
-        enabled: false
