@@ -3,6 +3,7 @@ kind: Certificate
 metadata:
   name: selfsigned-ca
 spec:
+  duration: 26280h
   isCA: true
   commonName: selfsigned-ca
   secretName: root-secret
