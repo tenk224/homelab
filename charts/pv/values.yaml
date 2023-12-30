@@ -1,2 +1,3 @@
-# volumes:
-# - 10Gi
+volumes:
+- 10Gi
+- 10Gi
