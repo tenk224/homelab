@@ -21,6 +21,8 @@ spec:
         configureCertmanager: false
         annotations:
           cert-manager.io/cluster-issuer: ca-issuer
+      kas:
+        enabled: false
     certmanager:
       install: false
     nginx-ingress:
@@ -42,3 +44,18 @@ spec:
         size: 50Gi
     gitlab-runner:
       install: false
+    minio:
+      persistence:
+        storageClass: manual
+        size: 50Gi
+    gitlab:
+      toolbox:
+        enabled: false
+      migrations:
+        enabled: false
+      webservice:
+        enabled: false
+      sidekiq:
+        enabled: false
+      gitlab-shell:
+        enabled: false

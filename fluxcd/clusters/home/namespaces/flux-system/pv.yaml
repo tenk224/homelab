@@ -14,5 +14,6 @@ spec:
   values:
     volumes:
     - 50Gi
+    - 50Gi
     - 10Gi
     - 10Gi
