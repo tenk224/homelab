@@ -41,8 +41,9 @@ spec:
       metrics:
         enabled: false
       primary:
-        storageClass: manual
-        size: 50Gi
+        persistence:
+          storageClass: manual
+          size: 50Gi
     gitlab-runner:
       install: false
     minio:
