@@ -4,3 +4,4 @@ namespace: cert-manager
 resources:
 - namespace.yaml
 - cert-manager.yaml
+- selfsigned-issuer.yaml
