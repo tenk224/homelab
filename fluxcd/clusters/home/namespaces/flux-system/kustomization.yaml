@@ -8,3 +8,4 @@ resources:
 - bitnami.yaml
 - jetstack.yaml
 - ingress-nginx.yaml
+- gitlab.yaml
