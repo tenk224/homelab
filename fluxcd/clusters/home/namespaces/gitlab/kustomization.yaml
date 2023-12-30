@@ -3,4 +3,4 @@ kind: Kustomization
 namespace: gitlab
 resources:
 - namespace.yaml
-# - gitlab.yaml
+- gitlab.yaml

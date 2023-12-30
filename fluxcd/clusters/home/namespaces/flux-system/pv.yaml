@@ -13,10 +13,6 @@ spec:
         namespace: flux-system
   values:
     volumes:
-    - 10Gi
-    - 10Gi
-    - 10Gi
-    - 10Gi
-    - 10Gi
+    - 50Gi
     - 10Gi
     - 10Gi

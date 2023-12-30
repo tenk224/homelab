@@ -17,9 +17,28 @@ spec:
       edition: ce
       hosts:
         domain: gitlab.tenk.local
+      ingress:
+        configureCertmanager: false
+        annotations:
+          cert-manager.io/cluster-issuer: ca-issuer
     certmanager:
       install: false
     nginx-ingress:
       enabled: false
     prometheus:
+      install: false
+    redis:
+      metrics:
+        enabled: false
+      master:
+        persistence:
+          storageClass: manual
+          size: 10Gi
+    postgresql:
+      metrics:
+        enabled: false
+      primary:
+        storageClass: manual
+        size: 50Gi
+    gitlab-runner:
       install: false
