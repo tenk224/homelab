@@ -5,3 +5,4 @@ resources:
 - namespaces/flux-system/
 - namespaces/ingress-controller/
 - namespaces/cert-manager/
+- namespaces/gitlab/

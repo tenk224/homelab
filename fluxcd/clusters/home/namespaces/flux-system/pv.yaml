@@ -1,0 +1,22 @@
+apiVersion: helm.toolkit.fluxcd.io/v2beta1
+kind: HelmRelease
+metadata:
+  name: pv
+spec:
+  interval: 5m
+  chart:
+    spec:
+      chart: charts/pv
+      sourceRef:
+        kind: GitRepository
+        name: homelab-git
+        namespace: flux-system
+  values:
+    volumes:
+    - 10Gi
+    - 10Gi
+    - 10Gi
+    - 10Gi
+    - 10Gi
+    - 10Gi
+    - 10Gi
