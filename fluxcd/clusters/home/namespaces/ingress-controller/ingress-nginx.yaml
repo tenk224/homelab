@@ -11,10 +11,13 @@ spec:
         kind: HelmRepository
         name: ingress-nginx
         namespace: flux-system
-      version: 4.7.1
+      version: 4.9.0
   values:
     fullnameOverride: "ingress-nginx"
     controller:
+      kind: DaemonSet
+      hostNetwork: true
+      dnsPolicy: ClusterFirstWithHostNet
       config:
         enable-underscores-in-headers: "true"
         use-forwarded-headers: "true"
