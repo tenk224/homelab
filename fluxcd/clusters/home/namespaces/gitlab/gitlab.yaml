@@ -22,6 +22,10 @@ spec:
         configureCertmanager: false
         annotations:
           cert-manager.io/cluster-issuer: ca-issuer
+          cert-manager.io/common-name: "*.tenk.local"
+        tls:
+          enabled: true
+          secretName: gitlab-cert
       kas:
         enabled: false
     certmanager:
