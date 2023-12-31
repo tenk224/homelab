@@ -9,3 +9,4 @@ resources:
 - jetstack.yaml
 - ingress-nginx.yaml
 - gitlab.yaml
+- tailscale.yaml

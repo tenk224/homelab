@@ -6,3 +6,4 @@ resources:
 - namespaces/ingress-controller/
 - namespaces/cert-manager/
 - namespaces/gitlab/
+- namespaces/tailscale/
