@@ -3,4 +3,4 @@ kind: Kustomization
 namespace: tailscale
 resources:
 - namespace.yaml
-# - tailscale.yaml
+- tailscale.yaml
