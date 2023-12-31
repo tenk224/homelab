@@ -18,7 +18,7 @@ spec:
       hosts:
         domain: tenk.local
       ingress:
-        class: nginx
+        class: tailscale
         configureCertmanager: false
         annotations:
           cert-manager.io/cluster-issuer: ca-issuer
