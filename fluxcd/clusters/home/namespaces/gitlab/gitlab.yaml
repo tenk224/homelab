@@ -54,8 +54,6 @@ spec:
       persistence:
         storageClass: manual
         size: 50Gi
-    registry:
-      enabled: false
     gitlab:
       gitaly:
         persistence:
