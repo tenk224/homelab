@@ -22,5 +22,5 @@ spec:
           operator: In
           values:
           - master
-  persistentVolumeReclaimPolicy: Delete
+  persistentVolumeReclaimPolicy: Recycle
 {{- end }}
