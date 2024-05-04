@@ -3,7 +3,6 @@ kind: Kustomization
 resources:
 - reconciler.yaml
 - namespaces/flux-system/
-- namespaces/ingress-controller/
 - namespaces/cert-manager/
 - namespaces/gitlab/
 - namespaces/tailscale/
