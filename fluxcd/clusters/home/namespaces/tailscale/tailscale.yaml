@@ -11,6 +11,6 @@ spec:
         kind: HelmRepository
         name: tailscale
         namespace: flux-system
-      version: 1.66.4
+      version: 1.66.3
   values:
     oauth: {}
