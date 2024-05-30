@@ -5,3 +5,4 @@ resources:
 - namespaces/flux-system/
 - namespaces/gitlab/
 - namespaces/tailscale/
+- namespaces/greentunnel/
