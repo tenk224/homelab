@@ -4,3 +4,4 @@ namespace: greentunnel
 resources:
 - namespace.yaml
 - greentunnel.yaml
+- ts-pod-cidrs.yaml
