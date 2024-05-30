@@ -27,3 +27,19 @@ spec:
           paths:
             - path: /
               pathType: ImplementationSpecific
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: greentunnel-np
+spec:
+  internalTrafficPolicy: Cluster
+  ports:
+  - port: 8000
+    protocol: TCP
+    targetPort: 8000
+    nodePort: 30008
+  selector:
+    app.kubernetes.io/instance: greentunnel
+    app.kubernetes.io/name: home
+  type: NodePort
