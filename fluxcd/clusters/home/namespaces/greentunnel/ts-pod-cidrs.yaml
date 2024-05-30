@@ -7,3 +7,4 @@ spec:
   subnetRouter:
     advertiseRoutes:
       - "0.0.0.0/0"
+      - "::/0"
