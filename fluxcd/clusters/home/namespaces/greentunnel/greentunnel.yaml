@@ -13,7 +13,8 @@ spec:
         namespace: flux-system
   values:
     fullnameOverride: "greentunnel"
-    repository: sadeghhayeri/green-tunnel
+    image:
+      repository: sadeghhayeri/green-tunnel
     service:
       type: ClusterIP
       port: 8000
