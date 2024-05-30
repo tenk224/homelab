@@ -12,6 +12,7 @@ spec:
         name: homelab-git
         namespace: flux-system
   values:
+    fullnameOverride: "greentunnel"
     repository: sadeghhayeri/green-tunnel
     service:
       type: ClusterIP
