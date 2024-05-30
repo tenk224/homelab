@@ -20,6 +20,8 @@ spec:
     ingress:
       enabled: true
       className: "tailscale"
+      annotations:
+        tailscale.com/hostname: greentunnel
       hosts:
         - host: greentunnel.local
           paths:
