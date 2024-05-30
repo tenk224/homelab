@@ -15,7 +15,7 @@ spec:
     fullnameOverride: "greentunnel"
     image:
       repository: sadeghhayeri/green-tunnel
-      tag: ""
+      tag: "latest"
     service:
       type: ClusterIP
       port: 8000
