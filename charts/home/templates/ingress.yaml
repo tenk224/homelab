@@ -58,4 +58,9 @@ spec:
               {{- end }}
           {{- end }}
     {{- end }}
+  tls:
+  {{- range .Values.ingress.hosts }}
+  - hosts:
+    - {{ .host | quote }}
+  {{- end }}
 {{- end }}
