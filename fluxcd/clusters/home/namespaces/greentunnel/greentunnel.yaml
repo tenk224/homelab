@@ -20,8 +20,10 @@ spec:
     ingress:
       enabled: true
       className: "tailscale"
+      annotations:
+        tailscale.com/hostname: greentunnel
       hosts:
-        - host: greentunnel.tenk.local
+        - host: greentunnel.local
           paths:
             - path: /
               pathType: ImplementationSpecific
