@@ -6,7 +6,4 @@ resources:
 - flux-system.yaml
 - homelab-git.yaml
 - bitnami.yaml
-- jetstack.yaml
-- ingress-nginx.yaml
-- gitlab.yaml
 - tailscale.yaml
