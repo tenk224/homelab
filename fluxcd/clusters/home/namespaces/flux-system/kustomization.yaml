@@ -3,6 +3,6 @@ kind: Kustomization
 namespace: flux-system
 resources:
 - flux-system.yaml
-- homelab-git.yaml
+- homelab.yaml
 - bitnami.yaml
 - tailscale.yaml
