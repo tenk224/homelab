@@ -3,6 +3,4 @@ kind: Kustomization
 resources:
 - reconciler.yaml
 - namespaces/flux-system/
-- namespaces/gitlab/
 - namespaces/tailscale/
-- namespaces/greentunnel/
