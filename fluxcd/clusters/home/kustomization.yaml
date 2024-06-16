@@ -4,3 +4,4 @@ resources:
 - reconciler.yaml
 - namespaces/flux-system/
 - namespaces/tailscale/
+- namespaces/csi-proxmox/

@@ -1,0 +1,9 @@
+---
+apiVersion: source.toolkit.fluxcd.io/v1beta2
+kind: HelmRepository
+metadata:
+  name: csi-proxmox
+spec:
+  type: "oci"
+  interval: 1h0m0s
+  url: oci://ghcr.io/sergelogvinov/charts/proxmox-csi-plugin

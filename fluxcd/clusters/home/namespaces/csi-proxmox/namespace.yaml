@@ -1,0 +1,7 @@
+apiVersion: v1
+kind: Namespace
+metadata:
+  labels:
+    name: csi-proxmox
+    pod-security.kubernetes.io/enforce: privileged
+  name: csi-proxmox

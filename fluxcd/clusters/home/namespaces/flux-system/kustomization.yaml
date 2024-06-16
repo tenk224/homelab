@@ -6,3 +6,4 @@ resources:
 - homelab.yaml
 - bitnami.yaml
 - tailscale.yaml
+- csi-proxmox.yaml
